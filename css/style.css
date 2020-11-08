@@ -1,0 +1,299 @@
+/* ここから下に記載していく */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul.header_nav{
+    display: flex;
+}
+
+.header_nav li{
+    margin-left: 50px;
+}
+
+
+
+.main{
+    background-image: url(../img/mainbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+
+.title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.subtitle{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+.title2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-top: 60px;
+    margin-bottom: 30px;
+} 
+
+.subtitle2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.honbun{
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.honbun2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+
+.imgbox{
+    display: flex;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.imgbox p{
+    width: 25%;
+}
+
+.imgbox p img{
+    width: 100%;
+}
+
+
+.course1{
+    background-image: url(../img/course_01.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: #fafafa;
+    height: 340px;
+    display: flex;
+}
+
+
+.textbox{
+    width: 480px;
+    margin-left: 540px;
+}
+
+
+.title3{
+    margin-top: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.honbun3{
+    margin-top: 40px;
+    font-size: 16px;
+    width: 480px;
+}
+
+
+.course2{
+    background-image: url(../img/course_02.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    background-color: #fafafa;
+    height: 330px;
+    display: flex;
+}
+
+.textbox2{
+    width: 480px;
+    margin-left: 65px;
+}
+
+.title4{
+    margin-top: 120px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.honbun4{
+    margin-top: 40px;
+    font-size: 16px;
+    width: 480px;
+}
+
+
+.course3{
+    background-image: url(../img/course_03.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: #fafafa;
+    height: 340px;
+    display: flex;
+}
+
+
+
+ul.newsList{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+
+}
+li.newsList_item{
+    width: 300;
+}
+
+
+.newsList_item-day{
+    margin-top: 30px;
+}
+
+
+.newsList_item-text{
+    margin-top: 24px;
+    margin-bottom: 60px;
+    line-height: 1.8;
+    width: 300px;
+}
+
+
+
+
+
+.more{
+    text-align: center;
+}
+
+.title5{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+} 
+
+
+.outer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.outer2{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.more {
+    display: inline-block;
+    padding: 1em 5em;
+    margin: 0 0 1em;
+    background-color: #ffd61a;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+  }
+  .more:hover {
+    opacity: 0.6;
+  }
+
+
+
+.accessMap{
+    background-color: #fafafa;
+    height: 1000px;
+    text-align: center;
+}
+
+.address{
+    margin-top: 60px;
+    line-height: 3;
+    display: flex;
+}
+
+.address1{
+    text-align: left;
+    margin-left: 280px;
+    
+}
+
+.address2{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.formBox{
+    margin: auto;
+    width: 520px;
+    height: 410px;
+}
+
+
+.r0{
+    display: flex;
+    margin-left: 16px;
+    height: 40px;
+}
+
+.r{
+    width: 300px;
+    height: 40px;
+    display: flex;
+}
+
+.r1{
+    width: 420px;
+    margin-left: 10px;
+}
+
+
+.r01{
+    height: 120px;
+    display: flex;
+    margin-left: 16px;
+}
+
+.r11{
+    width: 328px;
+    margin-bottom: 5px;
+}
+
+
+
+.cr{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    background-color: #707070;
+    color: white;
+    
+}
+
+
+
